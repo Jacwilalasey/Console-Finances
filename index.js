@@ -1,4 +1,4 @@
-var finances = [
+const finances = [
 ['Jan-2010', 867884],
 ['Feb-2010', 984655],
 ['Mar-2010', 322013],
@@ -86,3 +86,63 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+let total = 0   
+
+// Pull data for total number of months captured in the data
+let totalMonths = (finances.length);
+
+// Add each number value to produce a total revenue for captured data
+let totalRevenue = 0;
+
+//    Start        Condition        Incremement
+for (let i = 0; i < finances.length; i++) {
+    totalRevenue += finances[i][1];
+}
+
+// Compare monthly financial data to provide a average change MTM
+let monthlyAverage = totalRevenue / finances.length;
+
+// Pull data for greatest increase in profits
+let largestIncrease = finances[0][1]
+let highMonth;
+
+for (let i = 0; i < finances.length; i++) {
+    if (largestIncrease < finances[i][1]) {
+        largestIncrease = finances[i][1];
+        highMonth = finances[i][0];
+    }
+}
+
+// Pull data for greatest decrease in profits
+let largestDecrease = finances[0][1]
+let lowMonth;
+
+for (let i = 0; i < finances.length; i++) {
+    if (finances[i][1] < largestDecrease) {
+        largestDecrease = finances[i][1];
+        lowMonth = finances[i][0];
+    }
+}
+
+
+// Print required information for challenge
+console.log("Financial Analysis");
+console.log("----------------------------");
+console.log(`Total Months: ${totalMonths} months`)
+console.log(`Total: $${totalRevenue}`)
+console.log(`Average change: $${monthlyAverage.toFixed()}`)
+console.log(`Greatest Increase in Profits ${highMonth} ($${largestIncrease})`)
+console.log(`Greatest Decrease in Profits ${lowMonth} ($${largestDecrease})`)
+console.log("----------------------------");
+
+
+// ```text
+// Financial Analysis
+// ----------------------------
+// Total Months: 25
+// Total: $2561231
+// Average  Change: $-2315.12
+// Greatest Increase in Profits: Feb-2012 ($1926159)
+// Greatest Decrease in Profits: Sep-2013 ($-2196167)
+// ```
