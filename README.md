@@ -28,6 +28,6 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshots
 
-![ex1](https://user-images.githubusercontent.com/92437517/211087865-caabba80-d9f8-4ec8-a1ba-c347732b398c.png)![Uploading ex1.png…]()
-
 ![ex1](https://raw.githubusercontent.com/Jacwilalasey/Console-Finances/master/.github/ex1.png)
+
+![ex2](https://raw.githubusercontent.com/Jacwilalasey/Console-Finances/master/.github/ex2.png)
