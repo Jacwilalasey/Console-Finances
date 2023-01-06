@@ -31,7 +31,3 @@ Please refer to the LICENSE in the repo.
 ![ex1](https://user-images.githubusercontent.com/92437517/211088223-8e9ce177-58fd-4163-bebf-7a69902807d8.png)
 
 ![ex2](https://user-images.githubusercontent.com/92437517/211088235-3130c743-542b-48f5-a628-0d2b908d1769.png)
-
-![ex1](https://raw.githubusercontent.com/Jacwilalasey/Console-Finances/master/.github/ex1.png)
-
-![ex2](https://raw.githubusercontent.com/Jacwilalasey/Console-Finances/master/.github/ex2.png)
