@@ -87,7 +87,6 @@ const finances = [
 ['Feb-2017', 671099]
 ];
 
-let total = 0   
 
 // Pull data for total number of months captured in the data
 let totalMonths = (finances.length);
