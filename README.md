@@ -7,7 +7,7 @@ This repository contains the source code for my JavaScript challenge - analysing
 To view the site locally, clone the repository and open the index.html file in your preferred web browser.
 
 alternatively you can visit the deployed site at:
-[https://github.com/Jacwilalasey/Console-Finances]
+[https://jacwilalasey.github.io/Console-Finances/]
 
 ## Built With
 
